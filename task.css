@@ -11,10 +11,20 @@ background-color: #111;
 color: white;
 }
 button{
-    padding:10px 20px;
-    margin-top: 20px;
+    position:absolute;
+    padding:50px 80px;
     background-color: crimson;
+    border-radius: 10px;
+    font-size: 100px;
+}
+#inc{
+    margin: 30% 75%;
+}
+#dec{
+    margin: 30% 5%;
 }
 h2{
-    font-size: 50px;
+    position:absolute;
+    font-size: 400px;
+    margin: 5% 44%;
 }
