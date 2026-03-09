@@ -3,18 +3,53 @@ margin : 0;
 padding : 0;
 box-sizing: border-box;
 font-family: 'helvetica neue';
-color: #fff;
 }
 html , body{
 height : 100%;
 width : 100%;
 }
-body{
-    background-color: #111;
+
+main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-#box{
-    height: 50px;
-    width: 50px;
-    background-color: red;
+.card{
+    /* height: 350px; */
+    width: 280px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px
+}
+
+
+.card h3{
+    font-size: 26px;
+    white-space: nowrap;
+}
+.card h4{
+    font-size: 18px;
+    margin-top: 10px;
+     white-space: nowrap;   /* To align all text in single line */
+    color: crimson;
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 15px;
 }
